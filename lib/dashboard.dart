@@ -226,6 +226,19 @@ class BiayaScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Biaya Kuliah')),
       body: Center(child: Text('Ini adalah halaman Biaya Kuliah')),
+<<<<<<< HEAD
+=======
+    );
+  }
+}
+
+class KehadiranScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Presensi')),
+      body: Center(child: Text('Ini adalah halaman Presensi')),
+>>>>>>> b035d1d1efc324bd257dc3dd6f2b5927e54a6424
     );
   }
 }
