@@ -70,8 +70,9 @@ class LoginScreen extends StatelessWidget {
                       margin: EdgeInsets.only(left: 4.0),
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: NetworkImage(
-                              'https://dashboard.codeparrot.ai/api/assets/Z2rlZ46CYQNjI8gg'),
+                          image: AssetImage(
+                              'assets/kolom.png'
+                          ),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -103,8 +104,9 @@ class LoginScreen extends StatelessWidget {
                       margin: EdgeInsets.only(left: 4.0),
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: NetworkImage(
-                              'https://dashboard.codeparrot.ai/api/assets/Z2rlaI6CYQNjI8gh'),
+                          image: AssetImage(
+                              'assets/kolom.png'
+                          ),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -128,7 +130,7 @@ class LoginScreen extends StatelessWidget {
 
                           // Contoh data dummy untuk verifikasi
                           const String validEmail =
-                              "user@example.com"; // Ganti dengan email valid
+                              "user"; // Ganti dengan email valid
                           const String validPassword =
                               "password123"; // Ganti dengan password valid
 
@@ -156,8 +158,8 @@ class LoginScreen extends StatelessWidget {
                           margin: EdgeInsets.only(right: 4.0),
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                              image: NetworkImage(
-                                  'https://dashboard.codeparrot.ai/api/assets/Z2rlaI6CYQNjI8gi'),
+                              image: AssetImage(
+                                  'assets/boxlogin.png'),
                               fit: BoxFit.cover,
                             ),
                           ),

@@ -58,6 +58,14 @@ flutter:
     - assets/gambarJadwal.png
     - assets/gambarNilai.png
     - assets/gambarPresensi.png
+    - assets/kolom.png
+    - assets/boxlogin.png
+    - assets/profil.png
+    - assets/notifikasi.png
+    - assets/beranda.png
+    - assets/avatar.png
+    - assets/logodash.png
+    - assets/placeholder.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
